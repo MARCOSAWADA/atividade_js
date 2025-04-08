@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade JS_Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formulário de Inscrição</h1>
+
+        <form method="POST" id="formulario">
+            <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+            <input type="text" name="cpf" id="cpf" placeholder="CPF">
+            <input type="text" name="fone" id="fone" placeholder="Telefone">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+            <input type="text" name="cep" id="cep" placeholder="CEP">
+            <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+            <input type="text" name="estado" id="estado" placeholder="Estado">
+            <input type="text" name="profissao" id="profissao" placeholder="Profissão">
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+
+            <div class="button">
+                <input type="reset" name="cancel" id="cancel" value="Limpar" onclick="limpou()">
+                <input type="submit" name="cadastrar" id="botao" value="Cadastrar" onclick="cadastrou()">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
