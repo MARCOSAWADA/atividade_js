@@ -29,6 +29,7 @@ div.addEventListener("mouseout", function(event){
 
 
 
+
 nome.addEventListener('change', function(event){
     if(nome.value.length > 5){
         alert("FAVOR PREENCHER O SEU NOME COMPLETO")
