@@ -29,6 +29,11 @@ campos.forEach(function(id) {
 
 
 var nome = document.getElementById("nome");
+
+nome.addEventListener('keyup', function(event){
+    console.log(nome.value);  
+})
+
 nome.addEventListener('change', function(event){
     if(nome.value.length < 5){ 
         alert("POR FAVOR PREENCHE CORRETAMENTE O SEU NOME")
